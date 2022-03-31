@@ -4,9 +4,12 @@
     box-sizing: border-box;
 }
 
+.container-fluid {
+    margin: 0,
+}
+
 .sony {
     background-color: black;
-    height: 50px;
 }
 
 .sony-logo img {
@@ -15,4 +18,14 @@
 
 .text-end {
     text-align: right;
+}
+
+.ms_jumbotron {
+    height: 500px;
+    width: 100%;
+}
+
+.ms_returnal-item img {
+    width: 100px;
+    height: 100px;
 }
