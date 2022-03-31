@@ -8,6 +8,8 @@
     margin: 0,
 }
 
+/*HEADER*/
+
 .sony {
     background-color: black;
 }
@@ -20,6 +22,8 @@
     text-align: right;
 }
 
+/*JUMBOTRON */
+
 .ms_jumbotron {
     width: 100%;
 }
@@ -28,17 +32,23 @@
     width: 100%;
 }
 
+/*SECONDA SEZIONE */
+
 .ms_returnal-item img {
     width: 100%;
     margin: 1rem 0;
     border-radius: 20px;
 }
 
+/*TITOLI E PS5 */
+
 .titles {
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 4rem;
 }
+
+/*CLAIM E PS5*/
 
 .console-claim p {
     vertical-align: center;
@@ -48,14 +58,69 @@
     width: 100%;
 }
 
+
+/*PRODOTTI PS5*/
+
 .ms_ps-item img {
     width: 100%;
 }
+
+/*SEZIONE GIOCHI*/
 
 .ms_game-wrapper {
     background-color: rgb(34, 33, 33);
 }
 
-.ms_game-wrapper > h5, p {
+.ms_game-wrapper > h5,
+.ms_game-wrapper > p {
     color: white;
+}
+
+.ms_container-logo-col {
+    background-color: grey;
+}
+/*JUMBOTRON 3*/
+.ms_jumbotron-logo, .ms_jumbotron-col {
+    width: 100%;
+}
+
+.ms_jumbotron-logo img {
+    width: 70%;
+}
+
+.ms_jumbotron-col img {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .ms_jumbotron-col {
+        display: none;
+    }
+}
+
+/*JUMBOTRON 4*/
+
+.ms_container-avengers {
+    background-color: midnightblue;
+    margin-top: 2rem;
+}
+
+.ms_jumbotron-now img, .ms_jumbotron-av img {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .ms_jumbotron-av {
+        display: none;
+    }
+}
+
+.social-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social {
+    width: 100%;
 }
