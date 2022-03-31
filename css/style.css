@@ -51,3 +51,11 @@
 .ms_ps-item img {
     width: 100%;
 }
+
+.ms_game-wrapper {
+    background-color: rgb(34, 33, 33);
+}
+
+.ms_game-wrapper > h5, p {
+    color: white;
+}
