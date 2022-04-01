@@ -4,33 +4,34 @@
     box-sizing: border-box;
 }
 
-.container-fluid {
+/*.container-fluid {
     margin: 0,
 }
 
 /*HEADER*/
 
-.sony {
-    background-color: black;
+.ms_header-top img {
+    width: 5rem;
 }
 
-.sony-logo img {
-    width: 10%;
+.ms_header-bottom .dropdown-toggle::after {
+    display: none;
 }
 
-.text-end {
-    text-align: right;
+/*MAIN*/
+
+.ms_jumbotron-first {
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10rem 0 5rem;
+    color: white;
 }
 
-/*JUMBOTRON */
-
-.ms_jumbotron {
-    width: 100%;
+.ms_jumbotron-first img {
+    margin: 10rem 0 2rem;
 }
 
-.ms_jumbotron img {
-    width: 100%;
-}
 
 /*SECONDA SEZIONE */
 
@@ -40,7 +41,7 @@
     border-radius: 20px;
 }
 
-/*TITOLI E PS5 */
+/*TITOLI E PS5*/ 
 
 .titles {
     text-align: center;
@@ -65,23 +66,58 @@
     width: 100%;
 }
 
+.ms_ps-item {
+    width: 150px;
+    height: 200px;
+}
+
+.ms_ps-item:hover {
+    border-bottom: 3px solid blue;
+    filter: opacity(0.5);
+    display: flow-root;
+}
+
+/*jumbotron2*/
+
+.ms_jumbotron-second {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10rem 0 5rem;
+    color: white;
+    margin-top: 1rem;
+}
+
+.ms_jumbotron-first img {
+    margin: 10rem 0 2rem;
+}
+
+
 /*SEZIONE GIOCHI*/
 
 .ms_game-wrapper {
+    width: 100%;
     background-color: rgb(34, 33, 33);
 }
 
-.ms_game-wrapper > h5,
-.ms_game-wrapper > p {
-    color: white;
+/*PS4*/
+
+
+.ms_ps4-item img {
+    width: 100%;
 }
 
-.ms_container-logo-col {
-    background-color: grey;
+/*jumbotron 3*/
+
+.ms_jumbotron-third {
+    background-color: lightgrey;
 }
-/*JUMBOTRON 3*/
 .ms_jumbotron-logo, .ms_jumbotron-col {
     width: 100%;
+}
+
+.ms_jumbotron-logo {
+    align-items: center;
 }
 
 .ms_jumbotron-logo img {
@@ -98,11 +134,25 @@
     }
 }
 
+.one {
+    color: blue;
+}
+
+/*PROMO*/
+
+.ms_ps-promo img {
+    width: 100%;
+}
+
 /*JUMBOTRON 4*/
 
 .ms_container-avengers {
     background-color: midnightblue;
     margin-top: 2rem;
+}
+
+.two {
+    color: midnightblue;
 }
 
 .ms_jumbotron-now img, .ms_jumbotron-av img {
@@ -115,12 +165,37 @@
     }
 }
 
-.social-wrapper {
+
+
+/*SOCIAL*/
+
+.ms_social-wrapper {
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+    margin: 0 auto 5rem;
 }
 
-.social {
+.ms_social-wrapper {
+    display: inline-block;
+}
+
+.social-wrapper {
+    width: 50%;
+    margin: auto;
+}
+
+.social-item img {
     width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+    .social-wrapper {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+.ms_ps-footer {
+    background-color: midnightblue;
+}
+
+
