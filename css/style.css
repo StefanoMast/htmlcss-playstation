@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 
-/*.container-fluid {
-    margin: 0,
+.btn:hover {
+    margin: 1px;
+    border: 1px solid white;
+    
 }
-
 /*HEADER*/
 
 .ms_header-top img {
@@ -165,8 +166,6 @@
     }
 }
 
-
-
 /*SOCIAL*/
 
 .ms_social-wrapper {
@@ -196,6 +195,14 @@
 
 .ms_ps-footer {
     background-color: midnightblue;
+}
+
+.list ul li a {
+    text-decoration: none;
+}
+
+.list ul li {
+    list-style: none;
 }
 
 
