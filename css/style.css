@@ -3,27 +3,35 @@
     margin: 0;
     box-sizing: border-box;
 }
+/*COMMON*/
 
 /*BUTTONS*/
 
 .black-btn:hover {
-    outline: 1px solid black;
+    outline: 3px solid black;
     outline-offset: 2px;
 }
 
 .red-btn:hover {
-    outline: 1px solid red;
-    outline-offset: 2px; 
+    outline: 2px solid red;
+    outline-offset: 5px; 
 }
 
 .blue-btn:hover {
-    outline: 1px solid blue;
+    outline: 3px solid blue;
     outline-offset: 2px;
 }
 
 .white-btn:hover {
-    outline: 1px solid white;
+    outline: 3px solid white;
     outline-offset: 2px;
+}
+
+/*IMAGES*/
+
+.ms_returnal-item img:hover {
+    outline: 3px solid blue;
+    outline-offset: 5px;
 }
 
 
