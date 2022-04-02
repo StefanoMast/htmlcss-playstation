@@ -4,11 +4,29 @@
     box-sizing: border-box;
 }
 
-.btn:hover {
-    margin: 1px;
-    border: 1px solid white;
-    
+/*BUTTONS*/
+
+.black-btn:hover {
+    outline: 1px solid black;
+    outline-offset: 2px;
 }
+
+.red-btn:hover {
+    outline: 1px solid red;
+    outline-offset: 2px; 
+}
+
+.blue-btn:hover {
+    outline: 1px solid blue;
+    outline-offset: 2px;
+}
+
+.white-btn:hover {
+    outline: 1px solid white;
+    outline-offset: 2px;
+}
+
+
 /*HEADER*/
 
 .ms_header-top img {
@@ -32,6 +50,8 @@
 .ms_jumbotron-first img {
     margin: 10rem 0 2rem;
 }
+
+
 
 
 /*SECONDA SEZIONE */
@@ -204,5 +224,8 @@
 .list ul li {
     list-style: none;
 }
+
+/*FOOTER*/
+
 
 
