@@ -45,12 +45,10 @@
     display: none;
 }
 
-.dropdown-menu li {
+.ms_dropdown {
     width: 100vw;
 }
-.navbar-nav li img {
-    width: 5%;
-}
+
 
 /*MAIN*/
 
