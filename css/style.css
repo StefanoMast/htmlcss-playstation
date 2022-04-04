@@ -45,6 +45,13 @@
     display: none;
 }
 
+.dropdown-menu li {
+    width: 100vw;
+}
+.navbar-nav li img {
+    width: 5%;
+}
+
 /*MAIN*/
 
 .ms_jumbotron-first {
